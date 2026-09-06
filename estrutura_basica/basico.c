@@ -8,9 +8,10 @@
 // por fim, apos os parenteses, tem as chaves, o conteudo dentro das chaves é o bloco de comandos que a função ira executar
 int main(){
 
-    printf("Ola mundo");
+    printf("Ola mundo\n");
     // acima esta um metodo que recebi uma frase, veja que como a frase esta sendo recebida de forma direta pelo metodo, ela tem que esta entre aspas duplas, isso vale para qualquer frase com duas ou mais letras
     // printf é o metodo que vem da biblioteca #include<stdio.h>, ela trabalhar na saida dos dados, ou seja, ela recebe um dado que no caso acima, é uma frase("Ola mundo") e é exibido na tela pelo terminal, em outras palavras, faz a saida do dado pelo terminal
+    // a parte "\n" que printf esta recebendo, nada mais faz que pula uma linha quando printf é executado na tela, existe outros comandos com barra invertida como \t que faz uma tabulação(espaçamento)
     // note tambem o ponto e virgula no final, em c, na maioria das vezes eles são necessarios, pois eles representam o fim de um metodo ou função
 
     // abaixo esta a parte final da função, o fim do bloco de comandos
